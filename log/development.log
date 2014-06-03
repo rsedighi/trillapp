@@ -64691,3 +64691,650 @@ Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:12:55 -0700
 
 
 Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:12:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:30:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:32:35 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:32:36 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:35:05 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:35:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:48:51 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:48:52 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:48:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:49:32 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 330ms (Views: 266.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:33 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:49:34 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:49:34 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:49:42 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:45 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:49:47 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:49:47 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:49:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:50:00 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 90ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:01 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:50:02 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:50:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:50:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:52:22 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 103ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:23 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:52:25 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:52:25 -0700
+Processing by OmniauthCallbacksController#passthru as HTML
+  Parameters: {"provider"=>"google"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:52:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 100ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:10 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:53:11 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:53:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:13 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:14 -0700
+  [1m[36m (3.1ms)[0m  [1mCREATE TABLE "jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "company_name" varchar(255), "job_title" varchar(255), "applied_date" date, "follow_up_date" date, "contact_name" varchar(255), "contact_phone" integer, "notes" varchar(255), "additional_contacts" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (2.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime, "provider" varchar(255), "uid" varchar(255)) 
+  [1m[36m (35.6ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140523200859')
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140519175400')[0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140519190605')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:53:48 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 99ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:53:49 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:53:50 -0700
+
+
+Started GET "/users/auth/google" for 127.0.0.1 at 2014-06-03 14:53:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-03 14:54:30 -0700
+Processing by JobsController#index as HTML
+  Rendered jobs/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jobs.css?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/jobs.js?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-03 14:54:31 -0700
