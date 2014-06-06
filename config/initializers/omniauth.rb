@@ -4,8 +4,9 @@ Rails.application.config.middleware.use OmniAuth::Builder do
       :name => "google",
       :scope => 'https://www.googleapis.com/auth/userinfo.email',
       :access_type => 'offline',
-      :prompt => "select_account consent",
+      :prompt => "select_account",
       :image_aspect_ratio => "square",
       :image_size => 50
     }
+
 end

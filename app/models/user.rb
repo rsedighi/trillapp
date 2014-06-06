@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   def self.find_for_google_oauth2(auth, signed_in_resource=nil)
       user = User.where(:provider => auth.provider, :uid => auth.uid).first
       return user if user
-      user = User.create(name:auth.name,
+      user = User.create(
                          provider:auth.provider,
                          uid:auth.uid,
                          email:auth.info.email,
