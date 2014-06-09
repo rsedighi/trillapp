@@ -43,10 +43,12 @@
 
 <% else %>
 
-<section class="btn-login">
-<button class="zocial googleplus">Sign in with Google+</button>
-</section>
+
+<!-- <button class="zocial googleplus">Sign in with Google+</button> -->
+
 
 <!-- "Sign in with Google" -->
-# <%= link_to "", user_omniauth_authorize_path(:google) %>
+<section class="btn-login">
+<%= link_to " Sign in with Google", user_omniauth_authorize_path(:google), class: "zocial googleplus"%>
+</section>
  <% end %>
