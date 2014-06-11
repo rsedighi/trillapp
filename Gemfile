@@ -18,6 +18,7 @@ gem 'google-api-client', :require => 'google/api_client'
 gem 'figaro'
 gem 'binding_of_caller'
 
+
 group :development do
   gem 'sqlite3'
 end
