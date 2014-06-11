@@ -1,3 +1,4 @@
+
 <% if current_user %>
 
 <h1>Listing jobs</h1>
@@ -45,6 +46,10 @@
 <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
 
 <% else %>
-<h3>You are currently not signed in!</h3>
-<%= link_to "Sign in with Google", user_omniauth_authorize_path(:google) %>
+
+<!-- "Sign in with Google" -->
+<section class="btn-login">
+<%= link_to " Sign in with Google", user_omniauth_authorize_path(:google), class: "zocial googleplus"%>
+</section>
+
  <% end %>

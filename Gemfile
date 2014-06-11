@@ -17,6 +17,8 @@ gem 'google_calendar'
 gem 'google-api-client', :require => 'google/api_client'
 gem 'figaro'
 gem 'binding_of_caller'
+gem 'bourbon'
+gem 'neat'
 
 
 group :development do
