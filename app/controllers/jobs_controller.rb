@@ -7,6 +7,8 @@ class JobsController < ApplicationController
   # GET /jobs.json
   def index
     @jobs = Job.all
+    @jobs_by_date = @jobs.group_by(&:applied_date)
+    @date = params[:date] ? Date.parse(params[:date]) : Date.today
   end
 
   # GET /jobs/1

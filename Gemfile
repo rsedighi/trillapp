@@ -19,6 +19,8 @@ gem 'figaro'
 gem 'binding_of_caller'
 gem 'bourbon'
 gem 'neat'
+gem 'jquery-ui-rails'
+gem 'jquery-turbolinks'
 
 
 group :development do
