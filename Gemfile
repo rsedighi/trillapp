@@ -17,6 +17,11 @@ gem 'google_calendar'
 gem 'google-api-client', :require => 'google/api_client'
 gem 'figaro'
 gem 'binding_of_caller'
+gem 'bourbon'
+gem 'neat'
+gem 'jquery-ui-rails'
+gem 'jquery-turbolinks'
+
 
 group :development do
   gem 'sqlite3'
@@ -24,4 +29,5 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end

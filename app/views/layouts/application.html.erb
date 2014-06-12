@@ -7,10 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <p class="notice"><%= notice %></p>
+  <!-- <p class="notice"><%= notice %></p> -->
+
+<% if current_user %>
+  <%= yield %>
+
+  <% else %>
+
+  <div class="l-background-container">
+
+  <header>
+    <h1>TRILLAPP</h1>
+    <h2>TRACK YOUR OPPORTUNITIES</h2>
+  </header>
+
   <p class="alert"><%= alert %></p>
+<!-- </div> container -->
 
 <%= yield %>
 
+</div> <!-- Background picture -->
 </body>
 </html>
+<% end %>
