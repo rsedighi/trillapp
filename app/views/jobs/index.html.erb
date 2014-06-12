@@ -9,7 +9,7 @@
     <%= link_to ">", date: @date.next_month %>
   </h2>
 
-  <%= calendar do |date| %>
+  <%= calendar @date do |date| %>
     <%= date.day %>
     <% if @jobs_by_date[date] %>
       <ul>
@@ -20,7 +20,6 @@
     <% end %>
   <% end %>
 </div>
-
 
 <%= link_to 'New Job', new_job_path %> </br>
 <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
