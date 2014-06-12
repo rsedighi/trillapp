@@ -11,6 +11,9 @@ class JobsController < ApplicationController
     @date = params[:date] ? Date.parse(params[:date]) : Date.today
   end
 
+  def list
+    @jobs = Job.all
+  end
 
 
   # GET /jobs/1
