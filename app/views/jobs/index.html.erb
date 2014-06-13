@@ -1,12 +1,17 @@
 <% if current_user %>
 <h1>Listing jobs</h1>
-<h5><%= link_to "Total jobs applied: #{current_user.jobs.count}", list_jobs_path %></h5>
+
 
 
 <section class="m-circle-container">
   <div class="circle">
+    <div class="m-total-job-container">
+    <h1><%= "#{current_user.jobs.count}" %></h1>
+    </div>
   </div>
 </section>
+
+
 
 <div id="jobs">
   <h2 id="month">

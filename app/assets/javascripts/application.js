@@ -13,6 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.ui.datepicker
-//= require jquery.turbolinks
+//= require moment.min
+//= require moment-with-langs
+//= require moment-with-langs.min
+//= require clndr.min
+//= require main
 //= require_tree .
 
