@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>ProfessionallyUnprofessional</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <!-- <p class="notice"><%= notice %></p> -->
-
-<% if current_user %>
-  <%= yield %>
-
-  <% else %>
-
-  <div class="l-background-container">
-
-  <header>
-    <h1>TRILLAPP</h1>
-    <h2>TRACK YOUR OPPORTUNITIES</h2>
-  </header>
-
-  <p class="alert"><%= alert %></p>
-<!-- </div> container -->
-
-<%= yield %>
-
-</div> <!-- Background picture -->
-</body>
-</html>
-<% end %>
+  <head>
+    <title>ProfessionallyUnprofessional</title>
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <!-- <p class="notice"><%= notice %></p> -->
+    <% if current_user %>
+    <%= yield %>
+    <% else %>
+    <div class="l-background-container">
+      <header>
+        <h1>TRILLAPP</h1>
+        <h2>TRACK YOUR OPPORTUNITIES</h2>
+      </header>
+      <p class="alert"><%= alert %></p>
+      <!-- </div> container -->
+      <%= yield %>
+      </div> <!-- Background picture -->
+    </body>
+  </html>
+  <% end %>

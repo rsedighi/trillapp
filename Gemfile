@@ -20,6 +20,7 @@ gem 'binding_of_caller'
 gem 'better_errors'
 gem 'bourbon'
 gem 'neat'
+gem 'bitters'
 gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
 
