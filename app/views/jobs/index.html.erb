@@ -6,11 +6,12 @@
     <a href="#" class="icon-plus">
     <%= link_to 'New Job', new_job_path %>
     </a>
-    <a class="m-logout">
+    <div class="m-logout">
     <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
-    </a>
+    </div> <!-- logout -->
   </nav>
 </header>
+
 
 <div class="container">
 
