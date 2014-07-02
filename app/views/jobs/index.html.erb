@@ -1,13 +1,13 @@
 <% if current_user %>
 
 
-<header>
-  <nav>
+<header class="l-login-head-bar">
+  <nav class="m-new-job-link">
     <a href="#" class="icon-plus">
-    <%= link_to 'New Job', new_job_path %>
+        <%= link_to 'NEW JOB', new_job_path %>
     </a>
     <div class="m-logout">
-    <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+    <%= link_to 'SIGN OUT', destroy_user_session_path, method: :delete %>
     </div> <!-- logout -->
   </nav>
 </header>

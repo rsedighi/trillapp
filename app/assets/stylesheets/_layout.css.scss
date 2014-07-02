@@ -2,10 +2,10 @@
   @include outer-container;
 }
 
-header {
+.l-login-head-bar {
   width: 100%;
   padding: 0.5em;
-  background-color: tomato;
+  background-color: #8AD9A9;
 }
 
 .l-background-container {
@@ -18,8 +18,7 @@ header {
 
 .l-footer-container {
   width: 100%;
-  background-color: tomato;
-  padding: 0.5em;
-  border-top: 4px solid #dddddd;
+  background-color: #8AD9A9;
+  padding: 0.9em;
 }
 

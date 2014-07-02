@@ -1,20 +1,20 @@
 
 .m-top-circle-contain {
   @include span-columns(5);
-  @include shift( 4.4 );
+  @include shift( 4.8 );
  }
 
 .m-job-circle {
   @include position( relative, 0px 0 0 0px );
-  width: 63%;
-  padding-bottom: 55%;
-  border: 13px solid tomato;
+  width: 46%;
+  padding-bottom: 38%;
+  border: 13px solid #8AD9A9;
   border-radius: 50%;
   margin: 2em 0px 2em 0px;
 }
 
 .m-job-list-head {
-  @include position( absolute, 5em 0 0 0 );
+  @include position( absolute, 4em 0 0 0 );
   text-align: center;
   font-family: $base-font;
   margin-bottom: 0.2em;
@@ -23,12 +23,31 @@ h1 {
   margin-bottom: 0.2em;
   }
 h5 {
-  font-size: 2em;
+  font-size: 1.5em;
  }
 }
 
+.m-new-job-link {
+ font-family: $monospace;
+ a {
+  color: white;
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+ a:hover {
+  color: #e0e0e0;
+ }
+}
+
+
 .m-logout {
   float: right;
+  font-family: $base-font;
+  font-size: 1em;
+  padding-right: 0.5em;
+  a {
+    color: white;
+  }
 }
 
 

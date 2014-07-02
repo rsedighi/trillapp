@@ -2,6 +2,7 @@
   border-collapse: collapse;
   width: 67%;
   margin: 0 auto;
+  margin-bottom: 1em;
 }
 
   td, th {
@@ -32,13 +33,15 @@
 
 #jobs #month {
   margin: 0;
+  color: #2c5999;
+  font-family: $base-font;
   padding-bottom: 10px;
   text-align: center;
-  font-size: 22px;
+  font-size: 1.5em;
   a {
     text-decoration: none;
     padding: 0 10px;
-    color: #999;
+    color: #2c5999;
   }
 }
 
