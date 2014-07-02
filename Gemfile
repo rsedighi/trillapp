@@ -18,6 +18,11 @@ gem 'google-api-client', :require => 'google/api_client'
 gem 'figaro'
 gem 'binding_of_caller'
 gem 'better_errors'
+gem 'bourbon'
+gem 'neat'
+gem 'jquery-ui-rails'
+gem 'jquery-turbolinks'
+gem 'jquery-ui-rails'
 
 
 group :development do

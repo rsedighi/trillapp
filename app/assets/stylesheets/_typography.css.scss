@@ -1,0 +1,22 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+@import url("http://fonts.googleapis.com/css?family=Varela+Round");
+
+$base-font: 'Montserrat', sans-serif;
+$secondary-font: 'Varela Round', sans-serif;
+header {
+  text-align: center;
+  color: white;
+  h1 {
+    padding-top: 0.5em;
+    font-family: $secondary-font;
+    font-size: 8em;
+    font-weight: 700;
+  }
+  h2 {
+    margin-top: 0.2em;
+    font-family: $secondary-font;
+    font-size: 3em;
+    font-weight: 400;
+  }
+}
