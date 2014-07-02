@@ -1,6 +1,8 @@
 #jobs .calendar {
   border-collapse: collapse;
-  width: 100%;
+  width: 67%;
+  margin: 0 auto;
+}
 
   td, th {
     font-family: "Lucida Grande", arial, helvetica, sans-serif;
@@ -26,7 +28,7 @@
 
   .notmonth, .notmonth a { color: #CCC; }
   .today { background-color: #D7F2FF; }
-}
+
 
 #jobs #month {
   margin: 0;

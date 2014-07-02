@@ -1,16 +1,30 @@
 <% if current_user %>
 
+
+<header>
+  <nav>
+    <a href="#" class="icon-plus">
+    <%= link_to 'New Job', new_job_path %>
+    </a>
+    <a class="m-logout">
+    <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+    </a>
+  </nav>
+</header>
+
 <div class="container">
+
 <section class="m-top-circle-contain">
   <div class="m-job-circle">
-    <header class="m-job-list-head">
-      <h1>Listing jobs</h1>
+    <div class="m-job-list-head">
       <h5><%= link_to "Total jobs applied: #{current_user.jobs.count}", list_jobs_path %></h5>
-   </header>
+   </div>
   </div>
 </section>
+</div> <!-- container for whole page -->
 
 
+<section class="container">
 <div id="jobs">
   <h2 id="month">
     <%= link_to "<", date: @date.prev_month %>
@@ -29,10 +43,15 @@
     <% end %>
   <% end %>
 </div>
+</section> <!-- container of cal -->
 
-<%= link_to 'New Job', new_job_path %> </br>
-<%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
 
+
+<footer>
+  <div class="l-footer-container">
+
+  </div>
+</footer>
 
 <% else %>
 
@@ -40,5 +59,4 @@
 <section class="btn-login">
 <%= link_to " Sign in with Google", user_omniauth_authorize_path(:google), class: "zocial googleplus"%>
 </section>
-</div> <!-- container for whole page -->
  <% end %>
