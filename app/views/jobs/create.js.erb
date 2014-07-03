@@ -1,4 +1,5 @@
 $('#new_job').remove();
 $('#new_link').show();
-
+$('#job_posted').html("<%= j render(:partial => 'jobs/list') %>");
+$('.calendar').html("<%= j render(:partial => 'jobs/calendar') %>");
 

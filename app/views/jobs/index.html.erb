@@ -1,28 +1,14 @@
 <% if current_user %>
 <h1>Listing jobs</h1>
-<h5><%= link_to "Total jobs applied: #{current_user.jobs.count}", list_jobs_path, id: "job_count" %></h5>
+<h5><%= link_to "Total jobs applied: #{current_user.jobs.count}", list_jobs_path, remote: true, id: "job_count" %></h5>
 
-<div id="jobs">
-  <h2 id="month">
-    <%= link_to "<", date: @date.prev_month %>
-    <%= @date.strftime("%B %Y") %>
-    <%= link_to ">", date: @date.next_month %>
-  </h2>
+<%= render 'calendar' %>
 
-  <%= calendar @date do |date| %>
-    <%= date.day %>
-    <% if @jobs_by_date[date] %>
-      <ul>
-        <% @jobs_by_date[date].each do |job| %>
-          <li><%= link_to job.company_name, job %></li>
-        <% end %>
-      </ul>
-    <% end %>
-  <% end %>
-</div>
 
 <%= link_to 'New Job', new_job_path, id: "new_link", remote: true %> </br>
 <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+
+
 
 
 <% else %>
@@ -32,4 +18,4 @@
 <%= link_to " Sign in with Google", user_omniauth_authorize_path(:google), class: "zocial googleplus"%>
 </section>
 
- <% end %>
+<% end %>

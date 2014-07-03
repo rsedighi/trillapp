@@ -11,10 +11,6 @@ class JobsController < ApplicationController
     @date = params[:date] ? Date.parse(params[:date]) : Date.today
   end
 
-  def list
-    @jobs = Job.all
-  end
-
 
   # GET /jobs/1
   # GET /jobs/1.json
@@ -35,12 +31,13 @@ class JobsController < ApplicationController
   # POST /jobs.json
   def create
     @job = Job.new(job_params)
-
+    @jobs = Job.all
+    @date = params[:date] ? Date.parse(params[:date]) : Date.today
+    @jobs_by_date = @jobs.group_by(&:applied_date)
     respond_to do |format|
       if @job.save
         current_user.jobs << @job
         format.html { redirect_to @job, notice: 'Job was successfully created.' }
-        format.json { render :show, status: :created, location: @job }
         format.js
       else
         format.html { render :new }
@@ -69,8 +66,7 @@ class JobsController < ApplicationController
     @job.destroy
     respond_to do |format|
       format.html { redirect_to jobs_url, notice: 'Job was successfully destroyed.' }
-      format.json { head :no_content }
-      format.js
+      format.js {render :layout => false}
     end
   end
 

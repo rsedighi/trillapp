@@ -233,5 +233,4 @@ $('body').on('focus', '#show_up', function() {
   $(this).datepicker({dateFormat: "yy-mm-dd"});
 });
 
-
 })
