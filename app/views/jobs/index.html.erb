@@ -3,9 +3,7 @@
 
 <header class="l-login-head-bar">
   <nav class="m-new-job-link">
-    <a href="#" class="icon-plus">
-        <%= link_to 'NEW JOB', new_job_path %>
-    </a>
+        <%= link_to ' NEW JOB', new_job_path, class: "icon-plus"%>
     <div class="m-logout">
     <%= link_to 'SIGN OUT', destroy_user_session_path, method: :delete %>
     </div> <!-- logout -->
