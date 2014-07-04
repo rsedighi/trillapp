@@ -229,8 +229,7 @@ $('#notice').fadeOut(5000);
     $(this).autocomplete({source: availableCompanies});
   });
 
-$('body').on('focus', '#show_up', function() {
-  $(this).datepicker({dateFormat: "yy-mm-dd"});
-});
-
+  $('body').on('focus', '#show_up', function() {
+    $(this).datepicker({dateFormat: "yy-mm-dd"});
+  });
 })

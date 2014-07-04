@@ -53,6 +53,7 @@ class JobsController < ApplicationController
       if @job.update(job_params)
         format.html { redirect_to @job, notice: 'Job was successfully updated.' }
         format.json { render :show, status: :ok, location: @job }
+        format.js
       else
         format.html { render :edit }
         format.json { render json: @job.errors, status: :unprocessable_entity }
