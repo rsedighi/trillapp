@@ -1,6 +1,6 @@
 <% if current_user %>
 <h1>Listing jobs</h1>
-<h5><%= link_to "Total jobs applied: #{current_user.jobs.count}", list_jobs_path, remote: true, id: "job_count" %></h5>
+<h5><%= "#{current_user.email} has applied to" %><%= link_to " #{current_user.jobs.count} ", list_jobs_path, id: "job_count" %>jobs.</h5>
 
 <%= render 'calendar' %>
 
