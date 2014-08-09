@@ -10,7 +10,7 @@
     <% if @jobs_by_date[date] %>
       <ul>
         <% @jobs_by_date[date].each do |job| %>
-          <li><%= link_to job.company_name, job %></li>
+          <li><%= link_to job.company_name, job, id: "my_pony" %></li>
         <% end %>
       </ul>
     <% end %>
