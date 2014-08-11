@@ -1,4 +1,5 @@
 $('.delete_pony').bind('ajax:success', function() {
     $(this).closest('tr').fadeOut();
     $('.calendar [href$="<%= @job.id %>"]').fadeOut();
+    // $('div.fancybox-overlay.fancybox-overlay-fixed').hide();
 });

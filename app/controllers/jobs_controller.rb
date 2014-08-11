@@ -13,12 +13,12 @@ class JobsController < ApplicationController
 
   def list
     @jobs = Job.all
+
   end
 
   # GET /jobs/1
   # GET /jobs/1.json
   def show
-
   end
 
   # GET /jobs/new
@@ -40,8 +40,8 @@ class JobsController < ApplicationController
     respond_to do |format|
       if @job.save
         current_user.jobs << @job
-        format.html { redirect_to @job, notice: 'Job was successfully created.' }
-        format.js
+        format.html { redirect_to jobs_url, notice: 'Job was successfully created.' }
+        format.js {render :layout => false}
       else
         format.html { render :new }
         format.json { render json: @job.errors, status: :unprocessable_entity }

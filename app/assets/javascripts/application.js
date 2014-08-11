@@ -16,7 +16,16 @@
 //= require jquery.turbolinks
 //= require jquery.ui.all
 //= require jobs
+//= require fancybox
 //= require_tree .
+
+$(document).on("ready page:change", function() {
+  $('.fancybox').fancybox({type: 'ajax'});
+});
+
+$(document).on("ready page:change", function() {
+  $('.fancy-calendar').fancybox({type: 'ajax'});
+});
 
 $(function(){
 
@@ -227,7 +236,11 @@ $('#notice').fadeOut(5000);
 
   $('body').on('click', '#company_id', function() {
     $(this).autocomplete({source: availableCompanies});
+    $('.ui-autocomplete').css('z-index', 99999999999999);
   });
+
+
+
 
   $('body').on('focus', '#show_up', function() {
     $(this).datepicker({dateFormat: "yy-mm-dd"});

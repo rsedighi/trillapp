@@ -6,4 +6,3 @@
 jQuery ->
  $('#job_applied_date').datepicker
   dateFormat: 'yy-mm-dd'
-
