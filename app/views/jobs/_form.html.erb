@@ -1,4 +1,4 @@
-<%= form_for(@job) do |f| %>
+<%= bootstrap_form_for(@job, layout: :inline) do |f| %>
   <% if @job.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@job.errors.count, "error") %> prohibited this job from being saved:</h2>
@@ -11,40 +11,22 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :company_name %><br>
-    <%= f.text_field :company_name %>
-  </div>
-  <div class="field">
-    <%= f.label :job_title %><br>
-    <%= f.text_field :job_title %>
-  </div>
-  <div class="field">
-    <%= f.label :applied_date %><br>
-    <%= f.text_field :applied_date %>
-  </div>
-  <!-- <div class="field"> -->
-    <!-- <%#= f.label :follow_up_date %><br> -->
-    <%#= f.date_field :follow_up_date %>
-  <!-- </div> -->
-  <!-- <div class="field">
-    <%#= f.label :contact_name %><br>
-    <%#= f.text_field :contact_name %>
-  </div> -->
-  <!-- <div class="field">
-    <%#= f.label :contact_phone %><br>
-    <%#= f.text_field :contact_phone %>
-  </div> -->
-  <div class="field">
-    <%= f.label :notes %><br>
-    <%= f.text_field :notes %>
-  </div>
-  <!-- <div class="field">
-    <%#= f.label :additional_contacts %><br>
-    <%#= f.text_field :additional_contacts %>
-  </div> -->
+  <div class="container">
+    <%= f.text_field :company_name, id: "company_id", hide_label: :true, placeholder: "Company Name" %>
+
+    <%= f.text_field :job_title, hide_label: :true, placeholder: "Job Title" %>
+
+    <%= f.text_field :applied_date, hide_label: :true, id: "show_up", placeholder: "Applied Date" %>
+
+    <%= f.text_field :contact_phone, hide_label: :true, prepend:"+1", :class => "form-control bfh-phone", placeholder: "Contact Phone" %>
+</div>
+
+<div class="container">
+  <%= f.text_area :notes, hide_label: :true, placeholder: "Notes", :size => "67x10" %>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Submit', :class => 'btn btn-warning', id: "submit" %>
   </div>
+
+
 <% end %>

@@ -22,6 +22,10 @@ gem 'bourbon'
 gem 'neat'
 gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap_form'
+gem 'fancybox2-rails'
+gem "jquery-fileupload-rails"
 
 
 group :development do

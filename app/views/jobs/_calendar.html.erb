@@ -1,0 +1,20 @@
+<div class="container">
+<div id="jobs">
+  <h2 id="month">
+    <%= link_to "<", date: @date.prev_month %>
+    <%= @date.strftime("%B %Y") %>
+    <%= link_to ">", date: @date.next_month %>
+  </h2>
+
+  <%= calendar @date do |date| %>
+    <%= date.day %>
+    <% if @jobs_by_date[date] %>
+      <ul>
+        <% @jobs_by_date[date].each do |job| %>
+          <li><%= link_to job.company_name, job, id: "my_pony", class: "fancy-calendar" %></li>
+        <% end %>
+      </ul>
+    <% end %>
+  <% end %>
+</div>
+</div>

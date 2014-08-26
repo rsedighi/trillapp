@@ -1,28 +1,25 @@
 <% if current_user %>
-<h1>Listing jobs</h1>
-<h5><%= link_to "Total jobs applied: #{current_user.jobs.count}", list_jobs_path %></h5>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
 
-<div id="jobs">
-  <h2 id="month">
-    <%= link_to "<", date: @date.prev_month %>
-    <%= @date.strftime("%B %Y") %>
-    <%= link_to ">", date: @date.next_month %>
-  </h2>
+      <a class="navbar-brand" href="/jobs"><%= "#{current_user.email} " %></a>
+    </div>
 
-  <%= calendar @date do |date| %>
-    <%= date.day %>
-    <% if @jobs_by_date[date] %>
-      <ul>
-        <% @jobs_by_date[date].each do |job| %>
-          <li><%= link_to job.company_name, job %></li>
-        <% end %>
-      </ul>
-    <% end %>
-  <% end %>
+    <p class="navbar-text"><%= link_to " #{current_user.jobs.count} ", list_jobs_path, id: "job_count", class: "fancybox" %>
+    </p>
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to 'New Job', new_job_path, class: "fancybox" %></li>
+      <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+
+<div id="room_for_new_job">
 </div>
-
-<%= link_to 'New Job', new_job_path %> </br>
-<%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+<%= render 'calendar' %>
 
 
 <% else %>
@@ -32,4 +29,4 @@
 <%= link_to " Sign in with Google", user_omniauth_authorize_path(:google), class: "zocial googleplus"%>
 </section>
 
- <% end %>
+<% end %>

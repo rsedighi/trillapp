@@ -19,7 +19,6 @@ class JobsController < ApplicationController
   # GET /jobs/1
   # GET /jobs/1.json
   def show
-
   end
 
   # GET /jobs/new
@@ -35,12 +34,14 @@ class JobsController < ApplicationController
   # POST /jobs.json
   def create
     @job = Job.new(job_params)
-
+    @jobs = Job.all
+    @date = params[:date] ? Date.parse(params[:date]) : Date.today
+    @jobs_by_date = @jobs.group_by(&:applied_date)
     respond_to do |format|
       if @job.save
         current_user.jobs << @job
-        format.html { redirect_to @job, notice: 'Job was successfully created.' }
-        format.json { render :show, status: :created, location: @job }
+        format.html { redirect_to jobs_url, notice: 'Job was successfully created.' }
+        format.js {render :layout => false}
       else
         format.html { render :new }
         format.json { render json: @job.errors, status: :unprocessable_entity }
@@ -55,6 +56,7 @@ class JobsController < ApplicationController
       if @job.update(job_params)
         format.html { redirect_to @job, notice: 'Job was successfully updated.' }
         format.json { render :show, status: :ok, location: @job }
+        format.js
       else
         format.html { render :edit }
         format.json { render json: @job.errors, status: :unprocessable_entity }
@@ -68,7 +70,7 @@ class JobsController < ApplicationController
     @job.destroy
     respond_to do |format|
       format.html { redirect_to jobs_url, notice: 'Job was successfully destroyed.' }
-      format.json { head :no_content }
+      format.js {render :layout => false}
     end
   end
 
@@ -84,6 +86,6 @@ class JobsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def job_params
-      params.require(:job).permit(:company_name, :job_title, :applied_date, :follow_up_date, :contact_name, :contact_phone, :notes, :additional_contacts, :user_id)
+      params.require(:job).permit(:company_name, :job_title, :applied_date, :follow_up_date, :contact_name, :contact_phone, :notes, :additional_contacts, :user_id, :job_id)
     end
 end
