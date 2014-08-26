@@ -17,6 +17,7 @@
 //= require jquery.ui.all
 //= require jobs
 //= require fancybox
+//= require jquery-fileupload
 //= require_tree .
 
 $(document).on("ready page:change", function() {
